@@ -1,0 +1,256 @@
+.f1{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.f2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.a-paris{
+    text-decoration: none;
+}
+.todo{
+    text-decoration: none;
+}
+.plus{
+    color:orangered;
+}
+.first{
+    display: flex;
+    position: relative;
+    top:40px;
+    left:300px;
+}
+.side{
+    display: flex;
+    position: relative;
+    left:850px;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:25px;
+}
+.box1{
+    width:180px;
+    height:250px;
+    border:1px solid orangered;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: 5px 5px 5px gray;
+    margin:20px;
+}
+.trip22{
+    display: none;
+}
+.box2{
+    width:180px;
+    height:250px;
+    border:1px solid orangered;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: 5px 5px 5px gray;
+    margin:20px;
+}
+.trip33{
+    display: none;
+}
+.box3{
+    width:180px;
+    height:250px;
+    border:1px solid orangered;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: 5px 5px 5px gray;
+    margin:20px;
+}
+.trip44{
+    display: none;
+}
+.trip55{
+    display: none;
+}
+.main{
+    filter:blur(5px);
+}
+input{
+    border:1px solid orangered;
+    border-radius: 5px;
+}
+.sub{
+    width:300px;
+    height: 150px;
+    border:1px solid orangered;
+    background-color: white;
+    border-radius: 20px;
+    display:inline-block;
+    position: relative;
+    bottom: 300px;
+    left:500px;
+}
+.add{
+    background-color: orangered;
+    color: white;
+    width:50px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .first{
+        display: flex;
+        position: relative;
+        top:40px;
+        left:0px;
+    }
+    .f1{
+        font-size:40px;
+    }
+    .f2{
+        font-size:40px ;
+    }
+    .side{
+        display: flex;
+        position: relative;
+        left:250px;
+    }
+    .add-list{
+        display: none;
+    }
+    .container{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin:25px;
+    }
+    .horiz-1{
+        display: none;
+    }
+    .comp1{
+        display: none;
+    }
+    .check1{
+        display: none;
+    }
+    .pen1{
+        display: none;
+    }
+    .break1{
+        display: none;
+    }
+    .trip1{
+        color:gray;
+    }
+    .box1{
+        width:180px;
+        height:20px;
+        border:1px solid gray;
+        border-radius: 5px;
+        padding:10px;
+        box-shadow: 5px 5px 5px gray;
+        margin:0px;
+        text-align: left;
+    }
+    .horiz-2{
+        display: none;
+    }
+    .comp2{
+        display: none;
+    }
+    .check2{
+        display: none;
+    }
+    .pen2{
+        display: none;
+    }
+    .break2{
+        display: none;
+    }
+    .trip2{
+        display: none;
+    }
+    .trip22{
+        display: inline;
+    }
+    .break2{
+        display:none ;
+    }
+    .box2{
+        width:180px;
+        height:20px;
+        border:1px solid gray;
+        border-radius: 5px;
+        padding:10px;
+        box-shadow: 5px 5px 5px gray;
+        margin:20px 0px 0px 0px;
+        text-align: left;
+    }
+    .horiz-3{
+        display: none;
+    }
+    .comp3{
+        display: none;
+    }
+    .check3{
+        display: none;
+    }
+    .pen3{
+        display: none;
+    }
+    .break3{
+        display: none;
+    }
+    .trip3{
+        display: none;
+    }
+    .trip33{
+        display: inline;
+    }
+    .break4{
+        display:none ;
+    }
+    .box3{
+        width:180px;
+        height:20px;
+        border:1px solid gray;
+        border-radius: 5px;
+        padding:10px;
+        box-shadow: 5px 5px 5px gray;
+        margin:20px 0px 0px 0px;
+        text-align: left;
+    }
+    .trip44{
+        display: inline;
+    }
+    .box4{
+        width:180px;
+        height:20px;
+        border:1px solid gray;
+        border-radius: 5px;
+        padding:10px;
+        box-shadow: 5px 5px 5px gray;
+        margin:20px 0px 0px 0px;
+        text-align: left;
+    }
+    .trip55{
+        display: inline;
+    }
+    .box5{
+        width:180px;
+        height:20px;
+        border:1px solid gray;
+        border-radius: 5px;
+        padding:10px;
+        box-shadow: 5px 5px 5px gray;
+        margin:20px 0px 0px 0px;
+        text-align: left;
+    }
+    .sub{
+        width: 250px;
+        position:fixed;
+        left:25px;
+        top:200px;
+    }
+}
